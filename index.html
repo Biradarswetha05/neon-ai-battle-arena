@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Neon AI Battle Arena</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- LOADER -->
+
+  <div class="loader">
+
+    <h1>⚡ Initializing AI Arena...</h1>
+
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header class="header">
+
+    <h1>⚔️ Neon AI Battle Arena</h1>
+
+  </header>
+
+
+  <!-- DIFFICULTY BUTTONS -->
+
+  <section class="difficulty-container">
+
+    <button class="difficulty-btn easy active-difficulty">
+      Easy
+    </button>
+
+    <button class="difficulty-btn medium">
+      Medium
+    </button>
+
+    <button class="difficulty-btn hard">
+      Hard
+    </button>
+
+  </section>
+
+
+  <!-- THEME BUTTON -->
+
+  <section class="theme-container">
+
+    <button class="theme-btn">
+      🌙 Toggle Theme
+    </button>
+
+  </section>
+
+
+  <!-- GAME AREA -->
+
+  <main class="game-area">
+
+
+    <!-- PLAYER CARD -->
+
+    <section class="player-card">
+
+      <h2>Player</h2>
+
+      <div class="avatar">
+
+        <img src="assets/images/player.png" alt="Player">
+
+      </div>
+
+
+      <!-- PLAYER HEALTH -->
+
+      <div class="health-container">
+
+        <div class="health-bar player-health"></div>
+
+      </div>
+
+
+      <!-- PLAYER SCORE -->
+
+      <p class="score player-score">
+        Score: 0
+      </p>
+
+
+      <!-- WIN STREAK -->
+
+      <p class="streak-text">
+        🔥 Streak: 0
+      </p>
+
+    </section>
+
+
+
+    <!-- BATTLE AREA -->
+
+    <section class="battle-area">
+
+      <h2>Battle Arena</h2>
+
+      <div class="battle-text">
+
+        Choose Your Move
+
+      </div>
+
+      <div class="animation-area">
+
+        ⚡
+
+      </div>
+
+    </section>
+
+
+
+    <!-- AI CARD -->
+
+    <section class="ai-card">
+
+      <h2>AI Bot</h2>
+
+      <div class="avatar">
+
+        <img src="assets/images/ai.png" alt="AI Bot">
+
+      </div>
+
+
+      <!-- AI HEALTH -->
+
+      <div class="health-container">
+
+        <div class="health-bar ai-health"></div>
+
+      </div>
+
+
+      <!-- AI SCORE -->
+
+      <p class="score ai-score">
+        Score: 0
+      </p>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- CONTROL BUTTONS -->
+
+  <section class="controls">
+
+    <button class="move-btn">
+      🪨 Rock
+    </button>
+
+    <button class="move-btn">
+      📄 Paper
+    </button>
+
+    <button class="move-btn">
+      ✂️ Scissors
+    </button>
+
+  </section>
+
+
+
+  <!-- RESTART BUTTON -->
+
+  <section class="restart-container">
+
+    <button class="restart-btn">
+      🔄 Restart
+    </button>
+
+  </section>
+
+
+
+  <!-- MATCH HISTORY -->
+
+  <section class="history-container">
+
+    <h2>📜 Match History</h2>
+
+    <ul class="history-list">
+
+    </ul>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <p>
+      Created by Swetha 🚀
+    </p>
+
+  </footer>
+
+
+
+  <!-- SOUND EFFECTS -->
+
+  <audio id="clickSound" src="assets/sounds/click.mp3"></audio>
+
+  <audio id="hitSound" src="assets/sounds/hit.mp3"></audio>
+
+  <audio id="winSound" src="assets/sounds/win.mp3"></audio>
+
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
