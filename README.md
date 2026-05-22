@@ -21,7 +21,7 @@ A futuristic cyberpunk Rock Paper Scissors game built using HTML, CSS, and JavaS
 
 ## Live Demo
 
-
+ https://biradarswetha05.github.io/neon-ai-battle-arena/
 
 ## Author
 
